@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talha — Software Engineer · Portfolio &amp; Project Showcase</title>
+    <meta
+      name="description"
+      content="Portfolio of Talha (talhadev-pk): six production-style software projects — workflow automation, commerce intelligence, AI writing, project operations, enterprise BI and a restaurant simulation platform. React, TypeScript, honest engineering."
+    />
+    <meta name="author" content="Talha" />
+    <meta name="theme-color" content="#08090c" />
+    <link rel="canonical" href="https://talhadev-pk.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Talha — Developer Portfolio" />
+    <meta property="og:title" content="Talha — Engineering Ideas Into Digital Experiences" />
+    <meta
+      property="og:description"
+      content="Six real software engineering projects: FlowPilot, CommerceOS, ProseQ AI, TrackSphere, NexaCore and RestaurantOS. Built with React, TypeScript and care."
+    />
+    <meta property="og:url" content="https://talhadev-pk.github.io/" />
+    <meta property="og:image" content="https://talhadev-pk.github.io/art/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Talha — Engineering Ideas Into Digital Experiences" />
+    <meta
+      name="twitter:description"
+      content="A portfolio of six real, honestly-labelled software projects. Automation, commerce, AI writing, project ops, BI and simulation."
+    />
+    <meta name="twitter:image" content="https://talhadev-pk.github.io/art/og.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Theme bootstrap: prevents flash, defaults to dark -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("tdp-theme");
+          if (t !== "light" && t !== "dark") t = "dark";
+          document.documentElement.classList.toggle("dark", t === "dark");
+          document.documentElement.style.colorScheme = t;
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Talha",
+          "url": "https://talhadev-pk.github.io/",
+          "sameAs": ["https://github.com/talhadev-pk"],
+          "jobTitle": "Software Engineer",
+          "email": "mailto:talha.sagheer.work@gmail.com"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
