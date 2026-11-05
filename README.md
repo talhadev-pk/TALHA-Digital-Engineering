@@ -20,8 +20,8 @@ The central portfolio hub for [@talhadev-pk](https://github.com/talhadev-pk) —
 | 02 | **CommerceOS** | E-commerce management & business intelligence platform | [commerceos](https://github.com/talhadev-pk/commerceos) | [demo](https://talhadev-pk.github.io/commerceos/) |
 | 03 | **ProseQ AI** | Honest-AI writing workspace (Tiptap editor, rule-based tools) | [proseq-ai](https://github.com/talhadev-pk/proseq-ai) | [demo](https://talhadev-pk.github.io/proseq-ai/) |
 | 04 | **TrackSphere** | Project & team operations workspace (Kanban, timeline, workload) | [tracksphere](https://github.com/talhadev-pk/tracksphere) | [demo](https://talhadev-pk.github.io/tracksphere/) |
-| 05 | **NexaCore** | Local-first enterprise BI (KPIs, CSV pipelines, OLS forecasting) | [nexacore](https://github.com/talhadev-pk/nexacore) | pending release |
-| 06 | **RestaurantOS** | Browser-native restaurant simulation (29-table IndexedDB, POS/KDS) | [restaurantos](https://github.com/talhadev-pk/restaurantos) | deploy-ready |
+| 05 | **NexaCore** | Local-first enterprise BI (KPIs, CSV pipelines, OLS forecasting) | [nexacore](https://github.com/talhadev-pk/nexacore) | [demo](https://talhadev-pk.github.io/nexacore/#/app) |
+| 06 | **RestaurantOS** | Browser-native restaurant simulation (29-table IndexedDB, POS/KDS) | [restaurantos](https://github.com/talhadev-pk/restaurantos) | [demo](https://talhadev-pk.github.io/restaurantos/) |
 
 All descriptions, capabilities and screenshots on the site are grounded in each repository's own documentation — no invented metrics.
 
