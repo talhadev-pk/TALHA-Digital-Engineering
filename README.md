@@ -4,7 +4,7 @@
 
 The central portfolio hub for [@talhadev-pk](https://github.com/talhadev-pk) — a single-page, fully static showcase of six real software projects, each with its own public repository, README and (where deployed) live demo.
 
-**Live:** https://talhadev-pk.github.io/
+**Live:** https://talhadev-pk.github.io/TALHA-Digital-Engineering/
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19-61dafb.svg)
